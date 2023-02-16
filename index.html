@@ -17,17 +17,17 @@
     <div class="container">
         <nav>
             <figure class="foto-logo">
-                <a href="https://argentinaprograma.inti.gob.ar/"><img src="./img/logo.png" alt="logo"></a>
+                <a href="https://argentinaprograma.inti.gob.ar/"><img src="./images/logo.png" alt="logo"></a>
             </figure>
 
             <h1>PORTAFOLIO</h1>
 
             <ul>
-                <figure class="contenedor-foto-perfil">
-                    <a href="https://linkedin.com/" target="_blank"><img src="./img/linkedin.png" alt="lin-linkedin" class="social"></a>
-                    <a href="https://instagram.com/" target="_blank"><img src="./img/instagram.png" alt="link-instagram" class="social"></a>
-                    <a href="https://web.telegram.org/" target="_blank"><img src="./img/telegram.png" alt="link-telegram" class="social"></a>
-                    <a href="https://github.com/" target="_blank"><img src="./img/github.png" alt="link-github" class="social"></a>
+                <figure class="container-foto-perfil">
+                    <a href="https://linkedin.com/" target="_blank"><img src="./images/linkedin.png" alt="lin-linkedin" class="social"></a>
+                    <a href="https://instagram.com/" target="_blank"><img src="./images/instagram.png" alt="link-instagram" class="social"></a>
+                    <a href="https://web.telegram.org/" target="_blank"><img src="./images/telegram.png" alt="link-telegram" class="social"></a>
+                    <a href="https://github.com/" target="_blank"><img src="./images/github.png" alt="link-github" class="social"></a>
                 </figure>
             </ul>
 
@@ -39,76 +39,10 @@
             </div>
 
             <figure class="contenedor-foto-perfil">
-                <img src="./img/foto.png" alt="foto-perfil" class="foto-perfil">
+                <img src="./images/foto.png" alt="foto-perfil" class="foto-perfil">
             </figure>
         </header>
 
-        <main>
-            <section class="nombre">
-                <article>
-                    <h2>PROGRAMADOR</h2>
-                    <h3>Juan Bautista Rojas</h3>
-                </article>
-            </section>
-
-            <section>
-                <article class="acerca-de">
-                    <h2 id="acerca-de">ACERCA DE MÍ</h2>
-                    <p>
-                        Soy un analista de sistemas volcado a la docencia de la Programación, padre de Ana Libertad me encanta trabajar en casa con mis gatos en el escritorio, 
-                        mi formación es ámplia y versátil, lo que me permite encarar los proyectos de manera integral y pragmática, la curiosidad y el impeuo son mis fortalezas
-                    </p>
-                </article>
-
-                <article class="experiencia">
-                    <h2 id="experiencia">EXPERIENCIA</h2>
-                    <h3>Coordinador de Operaciones / Administrador Base de Datos</h3>
-                    <p>Crear y Administrar Bases de Datos SQL server.</p>
-                    <p>Crear interfaz para DATA ENTRY</p>
-                    <p>Manejo de Reportes Cristal Report</p>
-                    
-                    <h3>DIRECCIÓN PROVINCIAL DE EDUCACIÓN DE GESTIÓN
-                        PRIVADA</h3>
-                    <p>
-                        Profesor de Programación Nivel Secundario - Desde 2015
-                    <h3>DIRECCIÓN NACIONAL DE ESCUELAS Y CULTURA PROVINCIA DE BUENOS AIRES</h3>
-                    <p>
-                        Profesor Diseño de Aplicaciones Web Estáticas - Escuelas Técnicas
-                    </p>
-                    <p>Profesor Diseño de Aplicaciones Web Dinámicas</p>
-                </article>
-
-                <article class="formacion">
-                    <h2>FORMACIÓN</h2>
-                    <h3>Profesorado en Informática nivel Secundario y Técnico</h3>
-                    <p>
-                        Instituto CONSUDEC - Egresado 2019
-                    </p>
-                    <h3>Técnico Analista en Sistema de Aplicaciones</h3>
-                    <p>
-                        Instituto Superior de Formación Docente N° 46
-                    </p>
-                    <h3>Licnciado en Informática</h3>
-                    <p>
-                        UNIVERSIDAD NACIONAL DE HURLINGHAM - Cursando
-                    </p>
-                </article>
-
-                <article class="proyectos">
-                    <h2 id="proyecto">PROYECTOS</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae nihil, laboriosam eligendi cupiditate recusandae iusto officia, corporis temporibus vero quis ducimus dolor! Soluta quibusdam modi officia, qui repellendus nisi dicta!
-                    </p>
-                </article>
-
-                <article class="skill">
-                    <h2>SKILLS</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae nihil, laboriosam eligendi cupiditate recusandae iusto officia, corporis temporibus vero quis ducimus dolor! Soluta quibusdam modi officia, qui repellendus nisi dicta!
-                    </p>
-                </article>
-            </section>
-        </main>
         <main>
     <script>
         function cambiar_parrafo(){
@@ -152,18 +86,26 @@
             <div class ="card mat-card" id = "first-card">
                 <h2 id="experiencia">EXPERIENCIA</h2>
                 <h3>CAPITAN ROJO SA (Desde 2009 a 2016)</h3>
-                <img src="img/logounicar.jpg" alt="logo unicar" />
-                <p>Analista de Datos/p>
+				<div class="clearfix">
+                <img class= "img2" src="images/logounicar.jpg" alt="logo unicar" width="100" height="100">
+				</div>
+				<div>
+                <p>Analista de Datos</p>
+				</div>
                 <button class="btn-edit">Editar</button>
             </div>    
         </article>
 
         <article class="formacion">
             <div class ="card mat-card" id = "first-card">
-                <h2 id="experiencia">FORMACION</h2>
-                <h3>PROFESORADO DEL CONSUDEC (Egreso 2018)</h3>
-                <img class="foto-logo" [src]="miPorfolio.logoempresa"    />
-                <p>Profesor en Informatica</p>
+                <h2 id="experiencia">FORMACIÓN</h2>
+                <h3>ANALISTA DE SISTEMAS ISFD N°46 (Egresado 2019)</h3>
+				<div class="clearfix">
+                <img class= "img2" src="images/instituto46.png" alt="ISFD N°46" width="100" height="100">
+				</div>
+				<div>
+                <p>Analista de Datos y Desarrollador de Aplicaciones Móviles</p>
+				</div>
                 <button class="btn-edit">Editar</button>
             </div>
         </article>
@@ -171,19 +113,45 @@
         <article class="proyectos">
             <div class ="card mat-card" id = "first-card">
                 <h2 id="experiencia">PROYECTOS</h2>
-                <h3>{{miPorfolio.empresa1}} ({{miPorfolio.duracion}})</h3>
-                <img class="foto-logo" [src]="miPorfolio.logoempresa"    />
-                <p>{{miPorfolio.funciones1}}</p>
+                <h3>PYTHON (Regresiones)</h3>
+				<div class="clearfix">
+                <img class= "img2" src="images/python.png" alt="python" width="100" height="100">
+				</div>
+				<div>
+                <p>Regresiones Lineales</p>
+				</div>
                 <button class="btn-edit">Editar</button>
             </div>
         </article>
 
         <article class="skill">
             <div class ="card mat-card" id = "first-card">
+			<div>
                 <h2 id="experiencia">HABILIDADES</h2>
-                <h3>{{miPorfolio.empresa1}} ({{miPorfolio.duracion}})</h3>
-                <img class="foto-logo" [src]="miPorfolio.logoempresa"    />
-                <p>{{miPorfolio.funciones1}}</p>
+                <h3>DISEÑO WEB ESTÁTICO HTML,CSS,Javascript, DOM</h3>
+				<div class="clearfix">
+                <img class= "img2" src="images/banner.jfif" alt="logo unicar" width="100" height="100">
+				</div>
+				<div>
+                
+				</div>
+				</div>
+				<div>
+                <h3>DISEÑO WEB DINÁMICO Angular & React Js.</h3>
+				<div class="clearfix">
+                <img class= "img2" src="images/angular.png" alt="angular y react" width="100" height="100">
+				</div>
+				<div>
+                
+				</div>
+								<div>
+                <h3>JAVA WEB SERVICES</h3>
+				<div class="clearfix">
+                <img class= "img2" src="images/javaweb.png" alt="angular y react" width="100" height="100">
+				</div>
+				<div>
+                
+				</div>
                 <button class="btn-edit">Editar</button>
             </div>
         </article>
